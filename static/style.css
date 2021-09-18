@@ -1,0 +1,43 @@
+body{
+    background-color: #E8CFDC;
+    text-align: center;
+}
+.navbar {
+    background-color: #1F2232;
+    height: 80px;
+}
+.navbar-brand{
+    color: white;
+}
+a {
+    color: #B58DB6;
+}
+
+a:hover {
+    color: #4E8098;
+  }
+
+h3{
+   color: #596475;
+}
+
+h5{
+    font-family: Monospace;
+}
+.card-body{
+    background-color: #E8CFDC;
+    border-color: white;
+    
+}
+.card-title{
+    color: #000000;
+}
+.btn{
+    background-color: #1F2232;
+}
+.de{
+    height: 40px;
+    background-color: #FDE8E9;
+    color: black;
+    font-family: Monospace;
+}

@@ -1,0 +1,114 @@
+<html>
+<body>
+	<h1>Pizza Price Predictor System</h1>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href={{url_for('static',filename='style.css')}}>
+	
+<div>
+<form action="/result" method="POST">
+	<br>
+	Please select your preferances :-
+
+	<br>
+	
+	<label for="company">Company</label>
+	<select id="company" name="company">
+	<option value="0">A</option>
+	<option value="1">B</option>
+	<option value="2">C</option>
+	<option value="3">D</option>
+	<option value="4">E</option>
+	</select>
+	<br>
+	<label for="diameter">Diameter</label>
+	<select id="diameter" name="diameter" required="required">
+	<option value="0">8inch</option>
+	<option value="1">8.5inch</option>
+	<option value="2">12inch</option>
+	<option value="3">14inch</option>
+	<option value="4">14inchn</option>
+	<option value="5">16inch</option>
+	<option value="6">16.5inch</option>
+	<option value="7">17inch</option>
+	<option value="8">18inch</option>
+	<option value="9">18.5inch</option>
+	<option value="10">20inch</option>
+	<option value="11">22inch</option>
+	</select>
+	<br>
+	<label for="topping">Topping</label>
+	<select id="topping" name="topping" required="required">
+	<option value="0">Chicken</option>
+	<option value="1">Mushrooms</option>
+	<option value="2">Mozzarella</option>
+	<option value="3">Smoked_beef</option>
+	<option value="4">Tuna</option>
+	<option value="5">Vegetables</option>
+	<option value="6">Meat</option>
+	<option value="7">Sausage</option>
+	<option value="8">Black_Paper</option>
+	<option value="9">beef</option>
+	<option value="10">papperoni</option>
+	<option value="11">Onion</option>
+	</select>
+	<br>
+	<label for="variant">Variant</label>
+	<select id="variant" name="variant" required="required">
+	<option value="0">Classic</option>
+	<option value="1">meat_Lovers</option>
+	<option value="2">crunchy</option>
+	<option value="3">new_york</option>
+	<option value="4">double_Mix</option>
+	<option value="5">double_decker</option>
+	<option value="6">BBQ_fiet_fiesta</option>
+	<option value="7">double_signature</option>
+	<option value="8">super_Supreme</option>
+	<option value="9">american_favorite</option>
+	<option value="10">italian_veggie</option>
+	<option value="11">thai_veggie</option>
+	<option value="12">BBQ_Sausage</option>
+	<option value="13">neptune_tuna</option>
+	<option value="14">spicy_tuna</option>
+	<option value="15">spicy tuna</option>
+	<option value="16">meat_eater</option>
+	<option value="17">american_classic</option>
+	<option value="18">extravaganza</option>
+	<option value="19">gourmet_greek</option>
+	</select>
+	<br>
+	<label for="size">Size</label>
+	<select id="size" name="size" required="required">
+	<option value="0">medium</option>
+	<option value="1">small</option>
+	<option value="2">large</option>
+	<option value="3">regular</option>
+	<option value="4">jumbo</option>
+	<option value="5">XL</option>
+	</select>
+	<br>
+	<label for="extra_sauce">Extra_Sauce</label>
+	<select id="extra_sauce" name="extra_sauce" required="required">
+	<option value="0">yes</option>
+	<option value="1">no</option>
+	</select>
+	<br>
+	<label for="extra_cheese">extra_cheese</label>
+	<select id="extra_cheese" name="extra_cheese" required="required">
+	<option value="0">yes</option>
+	<option value="1">no</option>
+	</select>
+	<br>
+	<label for="extra_mushrooms">extra_mushrooms</label>
+	<select id="extra_mushrooms" name="extra_mushrooms" required="required">
+	<option value="0">yes</option>
+	<option value="1">no</option>
+	</select>
+	
+
+	<br>
+	<input type="submit" value="Submit">
+</form>
+</div>
+</body> Copyright@2021, Alok Singh
+</html>
