@@ -17,8 +17,8 @@ https://pizzapricepredictor.herokuapp.com/
 3. IDE: Anaconda, Jupyter Notebook
 
 # Screenshot
-![image](https://user-images.githubusercontent.com/87322522/133916842-bf566f50-a697-4f88-9d78-856721df2991.png)
-![image](https://user-images.githubusercontent.com/87322522/133916858-97dd1c99-2fbc-42ef-ac73-b042cdf3d85c.png)
+![image](https://user-images.githubusercontent.com/87322522/133917295-c1ba416e-5708-40b7-8901-9e3d0396c23a.png)
+![image](https://user-images.githubusercontent.com/87322522/133917312-00febd62-03bd-416b-8aa1-343e00a253b9.png)
 
 # Directory Tree
 ├── templates
