@@ -22,16 +22,27 @@ https://pizzapricepredictor.herokuapp.com/
 
 # Directory Tree
 ├── templates
+
 │   ├──index.html
+
 │   ├──result.html
+
 ├── static 
+
 │   ├── style.css
+
 ├── ML Project.ipynb
+
 ├── Procfile
+
 ├── README.md
+
 ├── pizza.py
+
 ├── pizza.pkl
+
 ├── pizza_v2.csv
+
 ├── requirements.txt
 
 # Linkedin Profile Link
