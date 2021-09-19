@@ -1,7 +1,7 @@
 # Pizza-Price-Predictor
 
 Machine Learning Project with deployment- Pizza Price Predictor
-In this Machine Learning ProMject we use dataset of Pizza Varity of Indonasia Pizza companies.
+In this Machine Learning Project we use dataset of Pizza Varity of Indonasia Pizza companies and Price in Indonesian Currency.
 Pizza Price Prediction is an application which predicts the Pizza price based on customers preferances or choices, and though it has manys choices for pizza type or variant.
 I have used the Pizza Price Prediction dataset.This project is tested over Random Forest Regressor.
 
