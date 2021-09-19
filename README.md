@@ -16,7 +16,7 @@ https://pizzapricepredictor.herokuapp.com/
 2. Back-End: Flask
 3. IDE: Anaconda, Jupyter Notebook
 
-# Screenshot
+# App Screenshot
 ![image](https://user-images.githubusercontent.com/87322522/133917295-c1ba416e-5708-40b7-8901-9e3d0396c23a.png)
 ![image](https://user-images.githubusercontent.com/87322522/133917312-00febd62-03bd-416b-8aa1-343e00a253b9.png)
 
