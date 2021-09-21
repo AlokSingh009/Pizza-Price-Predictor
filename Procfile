@@ -1,1 +1,1 @@
-web: gunicorn pizza:pizza
+web: gunicorn pizza:app
